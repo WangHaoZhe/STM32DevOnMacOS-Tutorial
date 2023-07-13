@@ -98,7 +98,15 @@ export PATH=$PATH:/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin
 
 新建一个终端窗口, 再次输入 printenv, 可以看到文件夹确实已被添加到 PATH 中.
 
-## 三. 配置 VS Code
+## 三. 安装OpenOCD
+
+命令行输入
+
+```
+brew install open-ocd
+```
+
+## 四. 配置 VS Code
 
 VS Code 安装过程从略.
 
@@ -110,7 +118,7 @@ VS Code 安装过程从略.
 
 生成完成后点击侧边栏到运行和调试, 插入 ST-Link 和目标板, 选择 Cortex Debug 并运行, 程序顺利烧写进 MCU 中.
 
-## 四. 参考
+## 五. 参考
 
 1. [cmake使用方法详解 - Windows Linux MacOS cmake安装教程](https://zhuanlan.zhihu.com/p/560253743)
 2. [how to install gcc-arm-none-eabi at Mojave MacOS](https://stackoverflow.com/questions/59861085/how-to-install-gcc-arm-none-eabi-at-mojave-macos)
